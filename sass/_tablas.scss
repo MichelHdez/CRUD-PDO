@@ -1,0 +1,26 @@
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
+table td{
+    color: #fff;
+    font-family: 'Arial',sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+table tr td{
+    border:1px solid #ccc;
+    padding: 7px;
+    font-size: 14px;
+    color: #fff;
+}
+input[type=text] {
+    background-color: #f7f7f7;
+    color: #1b3815;
+    display: block;
+    font-size: 15px;
+    padding: 5px;
+    width: 95%;
+  }

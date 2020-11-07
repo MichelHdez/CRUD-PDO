@@ -1,0 +1,39 @@
+.btn{
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 6px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.btn-editar{
+    background-color: $btn-editar;
+}
+.btn-editar:hover{
+    background-color: #118ab2;
+}
+.btn-eliminar{
+    background-color: $btn-eliminar;
+}
+.btn-eliminar:hover{
+    background-color: #8a0505;
+}
+.btn-enviar{
+    background-color: $btn-enviar;
+    margin: auto;
+    border: none;
+}
+.btn-enviar:hover{
+    background-color: #74a012;
+}
+.btn-restablecer{
+    background-color: $btn-restablecer;
+    margin: auto;
+    border: none;
+}
+.btn-restablecer:hover{
+    background-color: #dc2f02;
+}

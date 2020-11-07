@@ -1,0 +1,12 @@
+@mixin encabezados ($encabezado) {
+    color: $encabezado;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1{
+    @include encabezados($titulo);
+}
+h3{
+    @include encabezados($encabezado);
+}
