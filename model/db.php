@@ -1,8 +1,8 @@
 <?php 
 
-	$usuario = 'root';
-	$password = '';
-	$db = 'usuarios';
+	$usuario = 'inserte su usuario';
+	$password = 'inserte la cpntraseña';
+	$db = 'inserte la bd';
 
 	try {
 		$bd = new PDO('mysql:host=localhost;dbname='.$db, $usuario, $password);
